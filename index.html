@@ -9,6 +9,7 @@
   <title>Happy Birthday</title>
 </head>
 <body>
+  <audio src="HAPPY BIRTHDAY INSTRUMENTAL.mp3" id="linkmp3" class="sembunyi"></audio>
   <div class="card">
     <img src="./birthday.svg" alt="birthday" class="birthday">
     <div class="text">
@@ -18,5 +19,9 @@
     </div>
     <div class="space"></div>
   </div>
+  --><script>
+  const body = document.querySelector("body"); const style = document.createElement('style'); var today = new Date();var dd = String(today.getDate()).padStart(2, '0');var mm = String(today.getMonth() + 1).padStart(2, '0');var yyyy = today.getFullYear();const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];today = dd + ' ' + monthNames[today.getMonth()] + ' ' + yyyy; inikuis=0;ftganti=0;flag=1;flagg=1;fungsi=0;ftfungsi=0;fungsiAwal=0;fungsitimer=0;vketikhalo=halo.innerHTML;halo.innerHTML = "";vketikhalo2=halo2.innerHTML;halo2.innerHTML = "";pesanwhatsapp = pesanWA.innerHTML;deffotostiker=fotostiker.src;Content.style = "opacity:1;margin-top:16vh;";
+  audio = new Audio('' + linkmp3.src);tanggal.innerHTML="- " + today + " -"; function createHeart() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+</script>
 </body>
 </html>
