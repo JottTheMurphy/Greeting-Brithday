@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @JottTheMurphy
-- 😗 Spesial Birthday Greeting Card For Audrey
 - 📫 @razabratha122@gmail.com
 
 <!---
